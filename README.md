@@ -20,4 +20,4 @@ Este é um projeto simples em Java que simula um cofrinho digital com funcionali
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone git@github.com:Geraldopereirads/java-piggybank.git
