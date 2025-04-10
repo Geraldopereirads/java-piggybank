@@ -1,19 +1,22 @@
 # 🐖 Cofrinho Conversor de Moedas
 
-Este é um projeto simples em Java que simula um cofrinho digital com funcionalidades para conversão de moedas. A aplicação permite converter valores de **Dólar (USD)** e **Euro (EUR)** para **Real (BRL)** e somar ao saldo do cofrinho.
+Este é um projeto simples em Java que simula um cofrinho digital com funcionalidades para conversão de moedas. A aplicação permite converter valores de **Dólar (USD)** e **Euro (EUR)** para **Real (BRL)**, armazenar moedas, remover valores e calcular o saldo total.
 
 ## 🚀 Funcionalidades
 
-- 💰 Adicionar valores convertidos ao cofrinho
+- 💰 Adicionar moedas de diferentes países (BRL, USD, EUR)
+- ➖ Remover moedas específicas do cofrinho
+- 📋 Listar todas as moedas adicionadas
 - 💵 Converter Dólar (USD) para Real (BRL)
 - 💶 Converter Euro (EUR) para Real (BRL)
-- 📊 Visualizar saldo total acumulado em Reais
+- 📊 Calcular o valor total do cofrinho convertido para Reais
 
 ## 🛠️ Tecnologias Utilizadas
 
 - Java
 - Programação orientada a objetos (POO)
 - Scanner (para entrada de dados via terminal)
+- Herança e Polimorfismo (uso de classes abstratas e sobrescritas)
 
 ## ▶️ Como executar o projeto
 
