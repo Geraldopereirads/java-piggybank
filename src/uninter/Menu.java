@@ -28,7 +28,7 @@ public class Menu {
 				break;
 			case 3:
 				//Listar
-				break:
+				break;
 			case 4:
 				//Calcular
 				break;
@@ -36,4 +36,4 @@ public class Menu {
 				System.out.println("Opção invalida!");
 			}
 	}
-}
+}};
