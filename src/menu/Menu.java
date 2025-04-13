@@ -39,16 +39,16 @@ public class Menu {
 			int opcaoMoeda = sc.nextInt();
 
 			System.out.println("Digite um valor: ");
-			double valor = sc.nextFloat();
+			float valor = sc.nextFloat();
 
 			if (opcaoMoeda == 1) {
-				Moeda real = new Real(opcaoMoeda);
+				Real real = new Real(valor);
 				cofrinho.adicionar(real);
 			} else if (opcaoMoeda == 2) {
-				Moeda dolar = new Dolar(opcaoMoeda);
+				Dolar dolar = new Dolar(valor);
 				cofrinho.adicionar(dolar);
 			} else if (opcaoMoeda == 3) {
-				Moeda euro = new Euro(opcaoMoeda);
+				Euro euro = new Euro(valor);
 				cofrinho.adicionar(euro);
 			} else {
 				System.out.println("Moeda inválida!");
@@ -67,7 +67,8 @@ public class Menu {
 			MenuPrincipal();
 			break;
 		case "4":
-			// calcular
+			double valorConvertido = cofrinho.totalConvertido();
+			System.out.println("O total convertido para real ? " + valorConvertido);
 			break;
 		default:
 			System.out.println("Opção inválida");

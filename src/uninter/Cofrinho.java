@@ -18,9 +18,9 @@ public class Cofrinho {
 
 		if (this.MoedasList.isEmpty()) {
 			System.out.println("Cofrinho vazio!");
-			
-		}else {
-			
+
+		} else {
+
 			for (Moeda moeda : this.MoedasList) {
 				moeda.info();
 			}
@@ -28,4 +28,13 @@ public class Cofrinho {
 
 	}
 
+	public double totalConvertido() {
+		if (this.MoedasList.isEmpty()) {
+			return 0;
+		}
+
+		double valorAcumulado = MoedasList.stream().map(m -> m.converter()).reduce(0.0, (a, b) -> a + b);
+
+		return valorAcumulado;
+	}
 }
