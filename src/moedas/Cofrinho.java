@@ -1,4 +1,4 @@
-package uninter;
+package moedas;
 
 import java.util.ArrayList;
 
@@ -12,6 +12,10 @@ public class Cofrinho {
 
 	public void adicionar(Moeda add) {
 		this.MoedasList.add(add);
+	}
+	
+	public void remover (Moeda moeda) {
+		this.MoedasList.remove(moeda);
 	}
 
 	public void moedasList() {

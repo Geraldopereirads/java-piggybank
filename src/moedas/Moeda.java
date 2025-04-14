@@ -1,4 +1,4 @@
-package uninter;
+package moedas;
 
 public abstract class Moeda {
 	protected double valor;
